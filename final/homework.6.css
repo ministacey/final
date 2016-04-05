@@ -1,0 +1,43 @@
+.warm {
+    padding-top: 50px;
+    position: relative;
+    max-width: 1150px;
+    height: auto;
+    background-color: #DBC5C5
+}
+
+.box1 {
+    width: 250px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: #F9CACA;
+    float: left;
+    margin: 0 auto;
+}
+
+.box2 {
+    width: 250px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: #BBBBF7;
+    float: left;
+    margin: 0 auto;
+}
+
+.box3 {
+    width: 250px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: #F7F7AB;
+    float: left;
+    margin: 0 auto;
+}
+
+.box4 {
+    width: 250px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: #94F984;
+    float: left;
+    margin: 0 auto;
+}

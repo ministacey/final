@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hello!</title>
+</head>
+<p>(div+h1{我是標題}+h2{小小標題}+h3{20160304}+img)*3 </p>
+<p>ul>(li{第一段}>a)*3 u1>(li>a[href=#section$])*3 </p>
+<p>(div#section$>(h1+h3+p+img))*3</p>
+<ul>
+    <li>第一段
+        <a href="http://www.facebook.com.tw"></a>
+    </li>
+    <li>第二段
+        <a href=""></a>
+    </li>
+    <li>第三段
+        <a href=""></a>
+    </li>
+</ul>
+
+<body>
+    <p>首頁</p>
+    <a href="page1/test1.html" target="_blank">教堂</a>
+    <a href="page2/test2.html" target="_blank">黃色房子</a>
+    <a href="page3/test3.html" target="_blank">帆船</a>
+</body>

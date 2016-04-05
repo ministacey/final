@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="NTU CSIE Information System Training Course">
+    <meta name="keywords" content="Keyword 1,Keyword 2">
+    <meta name="description" content="description">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.png">
+     <script src="http://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="homework5.css">
+    <link rel="stylesheet" href="wow.min.js">
+    <title>我在哪裡呀</title>
+</head>
+
+<body>
+
+ <div class="show">
+        <div class="h"><h3><button text-center>猜猜描述的地方在哪裡呀</button></h3></div>
+    </div>
+    <script>
+    $(document).ready(
+        function() {
+            $("img").hide();
+            var isOpened = false;
+            $(".show").click(
+                function() {
+                    if (isOpened) {
+                        $("img").fadeOut(1000);
+                    }
+                    else{
+                        $("img").fadeIn(1000);
+                    }
+                    isOpened = !isOpened;
+                });
+        }
+    );
+    </script>
+    <div class="box">
+        <div class="box1 animated bounceInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sapiente veritatis delectus in quos, non tempore, iure rem ad quidem, amet ut. Recusandae blanditiis placeat ratione vero, accusamus tempora sequi.<img src="images/DSC07120.JPG" alt=""></div>
+        <div class="box2 animated bounceInUp"><img src="images/DSC07127.JPG" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa, necessitatibus, reiciendis esse dolor est adipisci sit doloribus maiores neque? Velit labore asperiores, porro facilis dignissimos nam temporibus at, aperiam! </div>
+        <div class="box3 animated flash">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic harum a, rerum nihil, aliquid necessitatibus dolorum magnam facere unde perspiciatis quis maxime. Deleniti ad expedita corporis debitis eius veritatis at. <img src="images/DSC07186.JPG" alt=""></div>
+    </div>
+   
+    <script src="wow.min.js "></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+
+</html>
